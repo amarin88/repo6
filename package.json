@@ -1,0 +1,23 @@
+{
+  "name": "desafioentregable_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^5.1.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.4.1",
+    "mongoose-paginate-v2": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
